@@ -1,0 +1,44 @@
+<GridLayout #slide
+    row="0"
+    [backgroundColor]="backgroundColor"
+    [translateY]="translateY"
+    [translateX]="translateX"
+    class="slide"
+    rows="auto, auto, 20, auto, auto, *"
+    columns="*, auto">
+    <Button *ngIf="hasNext"
+        #skipBtn
+        row="0"
+        col="1"
+        (tap)="onSkip.next(true)"
+        [isEnabled]="interactive"
+        class="slide-btn slide-btn-skip"
+        [text]="skipButtonText"></Button>
+    <Image *ngIf="imageUrl"
+        [marginTop]="hasNext ? 0 : 60"
+        row="1"
+        colSpan="2"
+        [class.shrink]="navBarHeight > 0"
+        class="slide-image"
+        [src]="imageUrl"></Image>
+    <Label
+        row="3"
+        colSpan="2"
+        class="slide-title"
+        textWrap="true"
+        [text]="title"></Label>
+    <Label
+        row="4"
+        colSpan="2"
+        class="slide-description"
+        textWrap="true"
+        [text]="description"></Label>
+    <Button
+        #continueBtn
+        row="5"
+        colSpan="2"
+        class="slide-btn-outline"
+        [isEnabled]="interactive"
+        (tap)="onContinue.next(true)"
+        [text]="okButtonText"></Button>
+</GridLayout>

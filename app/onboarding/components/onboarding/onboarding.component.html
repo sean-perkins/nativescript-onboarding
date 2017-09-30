@@ -1,0 +1,16 @@
+<GridLayout #slide>
+    <ns-onboarding-slide *ngFor="let slide of slides;let i = index;let last = last;"
+        [interactive]="!interactive"
+        [visible]="i === currentIndex"
+        [translateY]="translateY(i)"
+        [translateX]="translateX(i)"
+        [title]="slide.title"
+        [description]="slide.description"
+        [okButtonText]="slide.okButtonText"
+        [skipButtonText]="slide.skipButtonText"
+        [imageUrl]="slide.imageUrl"
+        [backgroundColor]="slide.backgroundColor"
+        (onSkip)="skip()"
+        [hasNext]="!last"
+        (onContinue)="continue()"></ns-onboarding-slide>
+</GridLayout>
