@@ -142,3 +142,8 @@ Contact the developer directly: sean@devonite.com with a brief description of yo
 [<img alt="Sean perkins" src="https://avatars1.githubusercontent.com/u/13732623?v=3&s=117" width="117">](https://github.com/sean-perkins) |
 :---:
 |[Sean Perkins](https://github.com/sean-perkins)|
+
+
+### Image Rights
+
+- Icon images are a snapshot of animated sequences created by [Virgil Pana](https://dribbble.com/virgilpana).
