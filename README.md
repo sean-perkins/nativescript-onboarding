@@ -111,6 +111,27 @@ onSkip - When the user selects the skip option. The `$event` object contains the
 
 onFinish - When the user has completed all slides or skipped the onboarding. The `$event` object contains the boolean value of if the onboarding was skipped.
 
+## Example App
+
+The example app includes the appropriate configuration to handle both `SASS` stylesheets as well as webpack builds.
+
+To get started, install all needed NPM dependencies:
+
+- `npm install`
+
+You may leverage the stock NativeScript CLI commands to run the example app:
+
+- `tns run ios`
+- `tns run android`
+
+To leverage the webpack build, you may run:
+
+- `npm run start-ios-bundle`
+- `npm run start-android-bundle`
+
+Please refer to the respective repositories and/or the `package.json` for additional CLI commands.
+
+
 ## Technical Support
 
 Contact the developer directly: sean@devonite.com with a brief description of your problem and how to quickly re-produce it.
