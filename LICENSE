@@ -1,15 +1,21 @@
-nativescript-onboarding
+The MIT License
 
-Copyright (c) 2017, Sean Perkins
+Copyright (c) 2017 Devonite
 
-If you have purchased this plugin or source code, then you have the rights to use it in any type of application(s)
-that you have built. Each developer on the team working on an app with this plugin needs to have a valid license.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-You MAY NOT sub-license this. If you have a customer that you need to provide the full source to;
-then they will need a valid licensed copy of this plugin.
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
 
-You MAY NOT release the plugin source in any public venue. If you need to commit this code; use a private repo.
-
-You MAY include this in any number of applications.
-
-You MAY put this plugin or source code on as many computers as needed; including build servers, etc...
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.

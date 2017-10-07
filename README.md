@@ -132,11 +132,6 @@ To leverage the webpack build, you may run:
 Please refer to the respective repositories and/or the `package.json` for additional CLI commands.
 
 
-## Technical Support
-
-Contact the developer directly: sean@devonite.com with a brief description of your problem and how to quickly re-produce it.
-
-
 ### Contributors
 
 [<img alt="Sean perkins" src="https://avatars1.githubusercontent.com/u/13732623?v=3&s=117" width="117">](https://github.com/sean-perkins) |
